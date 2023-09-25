@@ -1,11 +1,18 @@
 <ul class="nav nav-pills flex-column">
     <li class="nav-item">
-        <a class="nav-link" href="#">Sales Volume</a>
+        <a class="nav-link" href="#"  [routerLink]="['/sales']" >Sales Volume</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Latest Orders</a>
+        <a class="nav-link" href="#"  [routerLink]="['/orders']">Latest Orders</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">System Health</a>
+        <a class="nav-link" href="#"  [routerLink]="['/health']">System Health</a>
     </li>
 </ul>
+
+
+<!-- <ul>
+    <li *ngFor="let link of links">
+        <a [routerLink]="[link.routeValue]">{{link.Name}}</a>
+    </li>
+</ul> -->
