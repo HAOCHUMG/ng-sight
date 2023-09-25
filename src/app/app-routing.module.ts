@@ -8,7 +8,6 @@ const routes: Routes = [
   {path:'sales',component:SectionSalesComponent},
   {path:'orders',component:SectionOrdersComponent},
   {path:'health',component:SectionHealthComponent},
-
   {path:'',redirectTo:'/sales',pathMatch:'full'}
 ];
 
